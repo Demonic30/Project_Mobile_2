@@ -16,7 +16,7 @@
 
     <ons-toolbar id="barup">
             <div class="left">
-                    <ons-back-button>Back</ons-back-button>
+                    <ons-back-button onclick="window.location.href='home.html'">Back</ons-back-button>
             </div>
         <div class="center">
             <center>
@@ -29,14 +29,14 @@
         <canvas id="qr-canvas" width="320%" height="240%"></canvas>
         <div>
                 <ons-row class="category">
-                  <ons-col modifier="nodivider" id="Category_1" onclick="openPlaylist(this.id)">
+                  <ons-col modifier="nodivider" id="Category_1" >
                     <div class="category_wrapper">
                       <figure class="category_thumbnail">
                         <div class="scanner-laser laser-rightBottom" style="opacity: 0.5;"></div>
                       </figure>
                     </div>
                   </ons-col>
-                  <ons-col modifier="nodivider" id="Category_2" onclick="openPlaylist(this.id)">
+                  <ons-col modifier="nodivider" id="Category_2" >
                     <div class="category_wrapper">
                       <figure class="category_thumbnail">
                         <div class="scanner-laser laser-rightTop" style="opacity: 0.5;"></div>
@@ -45,14 +45,14 @@
                   </ons-col>
                 </ons-row>
                 <ons-row class="category">  
-                  <ons-col modifier="nodivider" id="Category_3" onclick="openPlaylist(this.id)">
+                  <ons-col modifier="nodivider" id="Category_3" >
                     <div class="category_wrapper">
                       <figure class="category_thumbnail">
                         <div class="scanner-laser laser-leftBottom" style="opacity: 0.5;"></div>
                       </figure>
                     </div>
                   </ons-col>
-                  <ons-col modifier="nodivider" id="Category_4" onclick="openPlaylist(this.id)">
+                  <ons-col modifier="nodivider" id="Category_4" >
                     <div class="category_wrapper">
                       <figure class="category_thumbnail">
                         <div class="scanner-laser laser-leftTop" style="opacity: 0.5;"></div>
